@@ -38,7 +38,7 @@ section#login{
 
     background-color: var(--orange);
     width: 250px;
-    height: 500px;
+    height: 520px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.534);
 
@@ -57,6 +57,7 @@ section#login > div#img{
     overflow: hidden;
 }
 
+
 section#login > div#form{
     display: block;
     padding: 10px;
@@ -64,12 +65,79 @@ section#login > div#form{
 }
 
 div#form > h1{
+    margin-top: 10px;
     text-align: center;
     margin-bottom: 10px;
 }
 
 div#form > p {
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-align: center;
     font-size: 1em;
+}
+
+form div.campo{
+  
+    display: block;
+    width: 100%;
+    border-radius:4px;
+    margin: 5px auto;    
+}
+
+
+form input[type="submit"] {
+    display: block;
+    font-size: 1em;
+    width: 70%;
+    height: 35px;
+    background-color:var(--black);
+    color: #dddddd;
+    cursor: pointer;
+    border: none;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+form input[type="submit"]:hover{
+    background-color: rgb(82, 82, 82);
+    }
+
+form a.botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 70%;
+    height: 35px;
+    padding-top: 5px;
+    margin-top: 4px;
+    color: #dddddd ;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 0 auto;
+}    
+form a.botao:hover{
+    background-color: var(--grey);
+    color: #FF8000;
+
+}
+
+div.campo > i {
+    color: #dddddd;
+    padding: 3.6px;
+    
+}
+iv.campo {
+    height: 50px;
+}
+
+
+div.campo > input{
+    background-color: #dddddd;
+    transform: translateY(-8px);
+    width: calc(100% - 69px);
+    min-height: 30px;
+    border: none;
+    border-radius: 2px;
+
 }
 
